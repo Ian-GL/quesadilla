@@ -1,14 +1,20 @@
 # Quesadilla
 
-Hi there! This is my personal website. So far I've decided it will be home to my blog and my CV, nothing exceptional here.
-It may also be home to some experiments.
+To start your Phoenix server:
 
-This site will have content both in English and Spanish.
+  * Install dependencies with `mix deps.get`
+  * Create and migrate your database with `mix ecto.setup`
+  * Install Node.js dependencies with `npm install` inside the `assets` directory
+  * Start Phoenix endpoint with `mix phx.server`
 
-## Stack
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-The site is built using Phoenix LiveView, though in the end most of the content will be static.
+Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
-For the blog I'm planning on using [NimblePublisher](https://https://github.com/dashbitco/nimble_publisher), a
-little blog engine made by the people at Dashbit. You can learn more about how it works in
-[their blog](https://dashbit.co/blog/welcome-to-our-blog-how-it-was-made).
+## Learn more
+
+  * Official website: https://www.phoenixframework.org/
+  * Guides: https://hexdocs.pm/phoenix/overview.html
+  * Docs: https://hexdocs.pm/phoenix
+  * Forum: https://elixirforum.com/c/phoenix-forum
+  * Source: https://github.com/phoenixframework/phoenix
