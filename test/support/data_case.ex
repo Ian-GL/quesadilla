@@ -17,11 +17,12 @@ defmodule Quesadilla.DataCase do
   use ExUnit.CaseTemplate
 
   using do
+    quote do
       import Quesadilla.DataCase
     end
   end
 
-  setup tags do
+  setup _tags do
     :ok
   end
 end
