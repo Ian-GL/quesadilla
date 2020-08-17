@@ -148,5 +148,3 @@ runcmd:
       "https://github.com/Ian-GL/quesadilla",
       "/home/ian/quesadilla",
     ]
-
-  - echo "initialization finished succesfully"

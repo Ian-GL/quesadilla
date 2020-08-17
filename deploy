@@ -1,5 +1,8 @@
 echo "Starting quesadilla deploy"
 
+echo "Installing hex..."
+mix local.hex --force
+
 echo "Updating mix deps..."
 mix deps.get --only prod
 
