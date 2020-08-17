@@ -142,4 +142,11 @@ packages:
 package_upgrade: true
 
 runcmd:
+  - [
+      git,
+      clone,
+      "https://github.com/Ian-GL/quesadilla",
+      "/home/ian/quesadilla",
+    ]
+
   - echo "initialization finished succesfully"
