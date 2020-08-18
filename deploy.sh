@@ -1,9 +1,15 @@
 echo "Starting quesadilla deploy"
 
+echo "Make builds folder"
+mkdir -p builds
+cd builds
+
 echo "Installing hex..."
+mix local.rebar --force
 mix local.hex --force
 
 echo "Updating mix deps..."
+mix clean --deps
 mix deps.get --only prod
 
 echo "Setting up secrets..."
